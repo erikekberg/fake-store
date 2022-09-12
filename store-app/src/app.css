@@ -17,7 +17,7 @@ body {
     flex-direction: column;
   }
   .home {
-    padding: 5px;
+    text-align: center;
   }
 }
 
