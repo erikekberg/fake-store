@@ -1,16 +1,11 @@
 import React from "react";
 import ShopItem from "./ShopItem";
 
-function Shop({ products }) {
+function Shop({ products, addToCart }) {
   return (
     <div className="shop">
       {products.map((product) => (
-        <ShopItem
-          name={product.name}
-          image={product.image}
-          price={product.price}
-          description={product.description}
-        />
+        <ShopItem product={product} addToCart={addToCart} />
       ))}
     </div>
   );

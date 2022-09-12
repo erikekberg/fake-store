@@ -1,13 +1,13 @@
 import React from "react";
 
-function ShopItem({ name, image, price, description }) {
+function ShopItem({ product, addToCart }) {
   return (
     <div className="shop-item">
-      <h3>{name}</h3>
-      <img src={image} alt="picture of item" />
-      <h4>${price}</h4>
-      <p>{description}</p>
-      <button>Add to cart</button>
+      <h3>{product.name}</h3>
+      <img src={product.image} alt="picture of item" />
+      <h4>${product.price}</h4>
+      <p>{product.description}</p>
+      <button onClick={() => addToCart(product)}>Add to cart</button>
     </div>
   );
 }

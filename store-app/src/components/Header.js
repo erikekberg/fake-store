@@ -9,7 +9,7 @@ function Header() {
       <ul>
         <Link to={"/"}>Home</Link>
         <Link to={"/shop"}>Shop</Link>
-        <li>Shopping Cart</li>
+        <Link to={"/cart"}>Shopping Cart</Link>
       </ul>
     </div>
   );
