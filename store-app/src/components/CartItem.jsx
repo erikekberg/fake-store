@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 
 function CartItem({ item }) {
   return (
@@ -13,7 +14,6 @@ function CartItem({ item }) {
           </p>
         </div>
       </div>
-      <h1>+ 1 -</h1>
     </div>
   );
 }

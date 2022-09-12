@@ -12,6 +12,15 @@ body {
   color: white;
 }
 
+@media only screen and (max-width: 600px) {
+  .header ul {
+    flex-direction: column;
+  }
+  .home {
+    padding: 5px;
+  }
+}
+
 .header {
   width: 100vw;
   height: 10vh;

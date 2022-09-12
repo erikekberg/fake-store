@@ -8,7 +8,7 @@ function Home() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim suscipit
         asperiores dolores, quisquam labore voluptas.
       </p>
-      <h4>Customer refferals</h4>
+      <h4>Customer referrals</h4>
       <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit."</p>
       <p>"Lorem ipsum dolor sit."</p>
     </div>
